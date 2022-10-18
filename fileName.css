@@ -1,0 +1,64 @@
+#myID
+{
+    color:rebeccapurple;
+}
+.myClass
+{
+	color:darkcyan;
+}
+body{
+  background-color: cornsilk;
+}
+p{
+  display: inline-block;
+  background-color:cornflowerblue;
+  font-family: 'Times New Roman', Times, serif;
+  font-style:italic;
+  font-weight:bold;
+  border-style:solid;
+  border-radius:5px;
+}
+div{
+  float:left;
+  width: 50.33%;
+  padding: 5px;
+}
+.dropdown{
+    /* This portion ensures that the hidden part of the dropdown will appear below the "Hover on me!" text. */
+    position:relative;
+    display:inline-block;
+}
+.dropdownHidden{
+    /* Setting display to none means that this is hidden */
+    display:none;
+    /* The box shadow gives the dropdown depth */
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2)
+}
+.dropdown:hover .dropdownHidden{
+    /* This section implements the appearance of the hidden portion when the mouse hovers over the dropdown element */
+    display:block;
+}
+.img_container{
+  float:left;
+  width:30.0%;
+  padding:5px;
+  animation: fadeOut ease 10s;
+}
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+*{
+  color:slateblue;
+  box-sizing: border-box;
+}
+.classDash{
+  border-style:dashed;
+}
+.classVaried{
+    border-top-style:solid;
+    border-right-style:dotted;
+    border-bottom-style:double;
+    border-left-style:outset;
+}
